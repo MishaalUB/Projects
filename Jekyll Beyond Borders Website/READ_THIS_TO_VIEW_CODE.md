@@ -3,4 +3,4 @@
 
 * Code can be accessed through this [repository.](https://github.com/MishaalUB/MishaalUB.github.io.git)
 
-* Test run website, which ensured that everything on the website was functional, can be accessed [here.](https://mishaalub.github.io/)
+* The test run website, which ensured that everything on the website was functional, can be accessed [here.](https://mishaalub.github.io/)
