@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="libraries/matter.min.js"></script>
+    <script src="libraries/decomp.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.min.js"></script>
+    <script src="Box.js"></script>
+    <script src="Circle.js"></script>
+    <script src="Ragdoll.js"></script>
+    <script src="Chain.js"></script>
+    <script src="Polygon.js"></script>
+    <script src="Grapes.js"></script>
+    <script src="Sign.js"></script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="modal fade" id="modal" data-bs-backdrop="static">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="food-message">Well done!</h5>
+          </div>
+          <div class="modal-body">
+            <p id="food-description">Processed meats like Hot Dogs are unsuitable as they are high in saturated fat, which causes inflammation. Studies show that higher intakes of these processed meats go hand in hand with diseases caused by inflammation.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="spawnFood()">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
